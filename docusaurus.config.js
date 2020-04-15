@@ -20,7 +20,7 @@ module.exports = {
         //   label: 'Docs',
         //   position: 'left',
         // },
-        { to: 'blog', label: 'Blog', position: 'left', routeBasePath: "/"},
+        { to: 'blog', label: 'Blog', position: 'right'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -75,7 +75,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}`,
     },
   },
   presets: [
@@ -87,10 +87,10 @@ module.exports = {
         //   editUrl:
         //     'https://github.com/facebook/docusaurus/edit/master/website/',
         // },
-        // blog: {
-        //   path: "./blog",
-        //   routeBasePath: "/"
-        // },
+        blog: {
+          path: "./blog",
+          routeBasePath: "/"
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
