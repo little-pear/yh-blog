@@ -1,5 +1,5 @@
 module.exports = {
-  title: '我的博客',
+  title: 'YH-blog',
   tagline: '欢迎光临我的博客',
   url: 'https://yh-blog.now.sh/',
   baseUrl: '/',
