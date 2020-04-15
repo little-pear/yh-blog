@@ -20,7 +20,7 @@ module.exports = {
         //   label: 'Docs',
         //   position: 'left',
         // },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        { to: 'blog', label: 'Blog', position: 'right', routeBasePath: "/"},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
