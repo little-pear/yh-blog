@@ -3,7 +3,7 @@ module.exports = {
   tagline: '欢迎光临我的博客',
   url: 'https://yh-blog.now.sh/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
